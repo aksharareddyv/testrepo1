@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="120" started-at="2019-10-29T17:54:37 IST" finished-at="2019-10-29T17:54:37 IST">
+    <groups>
+      <group name="UAT">
+        <method signature="testNGgrouping$testNG.forgotPassword(java.lang.String, java.lang.String)[pri:0, instance:Testmaven.testNGgrouping$testNG@4f970963]" name="forgotPassword" class="Testmaven.testNGgrouping$testNG"/>
+      </group> <!-- UAT -->
+    </groups>
+    <test name="Test" duration-ms="120" started-at="2019-10-29T17:54:37 IST" finished-at="2019-10-29T17:54:37 IST">
+      <class name="Testmaven.testNGgrouping$testNG">
+        <test-method status="PASS" signature="forgotPassword(java.lang.String, java.lang.String)[pri:0, instance:Testmaven.testNGgrouping$testNG@4f970963]" name="forgotPassword" duration-ms="25" started-at="2019-10-29T17:54:37 IST" finished-at="2019-10-29T17:54:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HDC4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+      </class> <!-- Testmaven.testNGgrouping$testNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

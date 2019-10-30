@@ -19,6 +19,11 @@ public class testNGgrouping {
 		  
 	  }
 	  
+	  @Test (groups = {"implementation"})
+	  public void reset() {
+		  System.out.println("login if already existing user");
+		  
+	  }
 	  @Test (groups = {"UAT"})
 	  @Parameters( {"Location", "DCNO"})
 	  public void forgotPassword(String Location,String DCNO) {
